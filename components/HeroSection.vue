@@ -1,16 +1,24 @@
 <script setup>
+import { PhoneIcon } from '@heroicons/vue/24/outline';
 </script>
 
 <template>
-    <div class="relative isolate px-6 pt-14 lg:px-8">
-      <div class="mx-auto max-w-2xl py-32">
-        <div class="text-center">
-          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Data to enrich your online business</h1>
-          <p class="mt-6 text-lg leading-8 text-gray-600">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
-          <div class="mt-10 flex items-center justify-center gap-x-6">
-            <NuxtLink to="/" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</NuxtLink>
-          </div>
-        </div>
-      </div>
+  <div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden mb-8">
+    <div class="absolute inset-0">
+      <NuxtImg src="/images/hero-locksmith.webp" alt="Background Image" class="object-cover object-center w-full h-full" />
+      <div class="absolute inset-0 bg-black opacity-70"></div>
     </div>
+    
+    <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
+      <h1 class="text-5xl font-bold leading-tight mb-4">Emergency Local Locksmith Near Me</h1>
+      <p class="text-lg text-gray-200 mb-8 lg:w-1/2 sm:w-4/5 p-6"><span class="text-xl">Are you locked out? Don't panic!</span> <br/> Our locksmiths are available 24/7 to get you back inside quickly and affordably. Whether your lock is broken, you've been locked out of your house, or simply need a reliable locksmith nearby, we're the trusted choice for all residents.
+        <br/> <br/>
+        We offer fast, reliable service at competitive prices, so you can save money and get back to your day. Our local, expert locksmiths are here to help, no matter the time.
+      </p>
+      <a href="tel:01212854484" class="bg-yellow-400 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg flex flex-row items-center justify-center gap-x-2">
+        <PhoneIcon class="h-6 w-6 mr-2" aria-hidden="true" /> 
+        Call Local Locksmith Now
+      </a>
+    </div>
+  </div>
 </template>

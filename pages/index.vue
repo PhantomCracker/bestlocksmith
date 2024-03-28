@@ -6,6 +6,8 @@
         <HeroSection />
         <OurServices />
         <AboutUs />
+        <TestimonialsSection />
+        <CallToAction />
     </NuxtLayout>
   </template>
   
