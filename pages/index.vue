@@ -5,6 +5,7 @@
     <NuxtLayout>
         <HeroSection />
         <OurServices />
+        <AboutUs />
     </NuxtLayout>
   </template>
   
