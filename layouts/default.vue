@@ -19,7 +19,7 @@ const mobileMenuOpen = ref(false);
         <div class="flex lg:flex-1">
           <NuxtLink to="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Your Company</span>
-            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+            <NuxtImg class="h-12 w-auto" src="/images/logo.webp" alt="" />
           </NuxtLink>
         </div>
         <div class="flex lg:hidden">
