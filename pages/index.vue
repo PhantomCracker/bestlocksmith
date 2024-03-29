@@ -8,6 +8,7 @@
         <AboutUs />
         <TestimonialsSection />
         <CallToAction />
+        <TrustedSection />
     </NuxtLayout>
   </template>
   

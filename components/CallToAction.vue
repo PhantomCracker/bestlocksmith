@@ -1,4 +1,5 @@
 <script setup>
+import { PhoneIcon } from '@heroicons/vue/24/outline';
 </script>
 
 <template>
@@ -15,10 +16,15 @@
             </defs>
           </svg>
           <div class="mx-auto max-w-2xl text-center lg:mx-0 lg:flex-auto lg:py-32">
-            <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Boost your productivity.<br />Start using our app today.</h2>
-            <p class="mt-6 text-lg leading-8 text-gray-300">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.</p>
+            <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Local Locksmith Near You 24/7</h2>
+            <p class="mt-6 text-lg leading-8 text-gray-300">
+              We pride ourselves on being the foremost provider of comprehensive locksmith solutions conveniently located near you, available round-the-clock. With a steadfast commitment to excellence and customer satisfaction, our team of certified locksmith professionals stands ready to address all your residential, and commercial locksmith needs with precision and efficiency.
+            </p>
             <div class="mt-10 flex items-center justify-center gap-x-6 mb-4 lg:mb-0">
-              <a href="#" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get started</a>
+              <a href="tel:01212854484" class="bg-yellow-400 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg flex flex-row items-center justify-center gap-x-2">
+                <PhoneIcon class="h-6 w-6 mr-2" aria-hidden="true" /> 
+                Call Your Locksmith Expert
+              </a>
             </div>
           </div>
         </div>
