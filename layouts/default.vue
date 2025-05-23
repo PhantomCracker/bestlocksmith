@@ -60,7 +60,7 @@ const mobileMenuOpen = ref(false);
 
     <slot />
 
-    <footer class="bg-white rounded-t-lg shadow dark:bg-gray-900">
+    <footer class="bg-white shadow dark:bg-gray-900">
       <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <span class="block text-sm text-white sm:text-center">© 2024 <NuxtLink href="/" class="hover:underline">Best Locksmith 4 You</NuxtLink>. All Rights Reserved.</span>
       </div>
